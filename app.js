@@ -1,5 +1,10 @@
-const add = document.querySelector('#add');
-const books = []
+const form = document.querySelector('form');
+const bookContent = document.querySelector('.books-content');
+const books = [];
+const bookTitle = document.querySelector('#title');
+const bookAuthor = document.querySelector('#author');
+
+let booksContent = '';
 
 function addBook(title, author) {
   books.push({title, author});
@@ -10,6 +15,27 @@ function deleteBook(){
 
 }
 
-console.log(addBook("Lord of the rings", "I wrote it"));
-console.log(addBook("Harry Potter", "J.K Rowling"));
+function displayBooks(){
+    books.forEach((book, index) => {
+      booksContent = `
+      <div class="books-title">
+        <p>${book.title} by ${book.author}</p>
+      </div>
+      <div class="books-btn">
+        <button class="btn">Remove</button>
+      </div>
+      `
+    })
+}
+
+form.addEventListener('submit', function(e) {
+  addBook(bookTitle.value, bookAuthor.value);
+  displayBooks();
+  bookContent.innerHTML += booksContent;
+  console.log(books);
+  e.preventDefault();
+});
+
+
+
 
