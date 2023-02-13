@@ -43,7 +43,7 @@
 
 - GitHub: [@brhanu](https://github.com/brhanuhailu)
 - Twitter: [@brhanu](https://twitter.com/TigrayCountry)
-  👤 **chukwuemeka**
+  👤 **Selasea**
 - GitHub: [@dselasea](https://github.com/dselasea)
 - Twitter: [@](https://twitter.com/)
 
