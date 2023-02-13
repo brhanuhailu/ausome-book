@@ -1,0 +1,5 @@
+const books = {
+  title: '',
+  author: '',
+}
+
