@@ -207,7 +207,7 @@ Example:
 
 👤 **Daniel Selsea**
 
-- GitHub: [@brhanuhailu](https://github.com/dselasea)
+- GitHub: [@dselasea](https://github.com/dselasea)
 - Twitter: [@alkhemistjs](https://twitter.com/alkhemistjs)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
