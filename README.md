@@ -71,10 +71,6 @@ After you're finished please remove all the comments and instructions!
 
 > The main tech stack and included to apply to this project are:
 
-- HTML
-- Css
-- JavaScript
-
 <details>
   <summary>Client</summary>
   <ul>
@@ -97,107 +93,74 @@ After you're finished please remove all the comments and instructions!
 <!--video description-->
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> deployment link the live demo will release soon.
-
-- [Live Demo Link](#)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Every one can use the project.
-
 To get a local copy up and running, follow these steps.
-clone the repository from this github.
 
 ### Prerequisites
 
 In order to run this project you need:
-
-<!--
-Example command:
+Open terminal on the same folder of the project and run:
 
 ```sh
- git
- vs-code
- browser
+ npm install
 ```
- -->
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
   cd my-folder
-  https://github.com/brhanuhailu/Moudle1CapstoneProject.git
+  git clone https://github.com/dselasea/awesome-books.git
 ```
---->
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
-
 ```sh
-  cd my-project
-  gem install
+  cd Module2-Awsome-Books
+  npm install
 ```
---->
 
 ### Usage
 
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+To run the project, open index.html
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
+To check for html errors run:
 
 ```sh
-  bin/rails test test/models/article_test.rb
+  npx hint .
 ```
---->
+
+To check for css errors run:
+
+```sh
+  npx stylelint "**/*.{css,scss}"
+```
+
+To check for js errors run:
+
+```sh
+  npx eslint .
+```
 
 ### Deployment
 
-You can deploy this project using:
-Githubpage
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+Deployed using Github Pages.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
 
 👤 **Brhanu Hailu**
 
@@ -229,7 +192,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]https://github.com/dselasea/awesome-books/issues).
+Feel free to check the [issues page](https://github.com/dselasea/awesome-books/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -247,8 +210,6 @@ If you like this project like it.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
 we would like to thank Microverse organization
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -259,8 +220,7 @@ we would like to thank Microverse organization
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT]() licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](https://github.com/dselasea/awesome-books/community/license/new?template=MIT) licensed.
+(Check the LICENSE file)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
