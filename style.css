@@ -8,3 +8,14 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.book-item {
+  width: 30%;
+  border-bottom: 1px solid;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.form-control {
+  padding: 10px 0;
+}
