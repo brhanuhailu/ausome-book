@@ -1,3 +1,4 @@
+// Get elements from html
 const form = document.querySelector('form');
 const bookContent = document.querySelector('.books-content');
 const books = [];
@@ -6,15 +7,20 @@ const bookAuthor = document.querySelector('#author');
 
 let booksContent = '';
 
+// Add book function
 function addBook(title, author) {
   books.push({title, author});
+  bookTitle.value = ''
+  bookAuthor.value = ''
   return books;
 }
 
+// Delete book function
 function deleteBook(){
 
 }
 
+// Display Book function
 function displayBooks(){
     books.forEach((book, index) => {
       booksContent = `
@@ -28,11 +34,11 @@ function displayBooks(){
     })
 }
 
+// Submit book function
 form.addEventListener('submit', function(e) {
   addBook(bookTitle.value, bookAuthor.value);
   displayBooks();
   bookContent.innerHTML += booksContent;
-  console.log(books);
   e.preventDefault();
 });
 
