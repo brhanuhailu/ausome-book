@@ -1,6 +1,6 @@
 /* eslint-disable max-classes-per-file */
 /* eslint-disable no-use-before-define */
-const listOfbooks = document.querySelector('.awesome-book-list');
+const listOfbooks = document.querySelector('.books-content');
 class Book {
   constructor(title, author) {
     this.title = title;
@@ -53,8 +53,9 @@ function DisplayBooks(index) {
   displaybook.classList.add('book-item');
   displaybook.classList.add(bgcolor);
   displaybook.setAttribute('id', index.bookid);
-  displaybook.innerHTML = `<p>${index.title} <br> ${index.author}</p> `;
+  displaybook.innerHTML = `<p class='book-title'>${index.title} by ${index.author}</p> `;
   const removeBook = document.createElement('button');
+  removeBook.classList.add('btn');
   removeBook.innerHTML = 'Remove';
   removeBook.addEventListener('click', () => savebook.removeBook(index.bookid));
   displaybook.appendChild(removeBook);
