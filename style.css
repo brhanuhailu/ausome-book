@@ -25,6 +25,7 @@ body {
   background: #fff;
   border: 2px solid #000;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .books {
@@ -84,7 +85,6 @@ form {
 
 form .add {
   float: right;
-  cursor: pointer;
 }
 
 .white {

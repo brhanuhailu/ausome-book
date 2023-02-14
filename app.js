@@ -2,6 +2,8 @@
 /* eslint-disable no-use-before-define */
 const listOfbooks = document.querySelector('.books-content');
 const newB = document.querySelector('.new-books');
+const title = document.querySelector('#title');
+const author = document.querySelector('#author');
 
 class Book {
   constructor(title, author) {
@@ -40,8 +42,6 @@ class StoreBook {
 const savebook = new StoreBook();
 // Get input value
 function getformInput() {
-  const title = document.querySelector('#title');
-  const author = document.querySelector('#author');
   const insertbook = new Book(title.value, author.value);
   return insertbook;
 }
@@ -67,8 +67,6 @@ function DisplayBooks(index) {
   listOfbooks.appendChild(displaybook);
 }
 
-const title = document.querySelector('#title');
-const author = document.querySelector('#author');
 // Add Button
 const addnewBook = document.querySelector('#add');
 addnewBook.addEventListener('click', (e) => {
@@ -79,6 +77,8 @@ addnewBook.addEventListener('click', (e) => {
     const item = getformInput();
     savebook.addBook(item);
     success();
+    title.value = '';
+    author.value = '';
     e.preventDefault();
   }
 });
