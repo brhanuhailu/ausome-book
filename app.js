@@ -84,7 +84,7 @@ addnewBook.addEventListener('click', (e) => {
 });
 
 // display
-window.addEventListener('DOMContentLoaded', function() {
+window.addEventListener('DOMContentLoaded', () => {
   savebook.BookData = JSON.parse(localStorage.getItem('BookDB' || '[]'));
   if (savebook.BookData === null) {
     savebook.BookData = [];
