@@ -38,8 +38,11 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  width: 60%;
+  margin: 2rem auto;
+  border: 2px solid;
   align-items: center;
-  margin-bottom: 2rem;
+
 }
 
 .book-title {
@@ -49,7 +52,7 @@ body {
 }
 
 .book-item {
-  width: 80%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -71,7 +74,10 @@ body {
   width: 100%;
   border-radius: 5px;
 }
-
+form{
+  width: 40%;
+  margin: auto;
+}
 form .add {
   float: right;
   cursor: pointer;
