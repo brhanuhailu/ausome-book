@@ -19,3 +19,11 @@
 .form-control {
   padding: 10px 0;
 }
+
+.white {
+  background: #fff;
+}
+
+.light {
+  background: #333;
+}
