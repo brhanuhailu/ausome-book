@@ -10,6 +10,54 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+.header-contanier {
+  width: 100%;
+}
+
+.nav-bar {
+  margin: 10px auto;
+  border: 2px solid;
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  padding-left: 20px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+.nav-list li {
+  list-style-type: none;
+}
+
+.nav-list li a {
+  font-size: 1.2rem;
+  font-family: 'poppins', sans-serif;
+  font-weight: 600;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-list li a:hover {
+  color: rgb(48, 48, 241);
+}
+
+.border {
+  border-left: 2px solid rgb(37, 37, 37);
+  border-right: 2px solid rgb(37, 37, 37);
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -66,6 +114,17 @@ body {
   width: 60%;
 }
 
+.date {
+  float: right;
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 210px;
+}
+
+.addnewbook {
+  display: none;
+}
+
 .form-control {
   padding: 10px 0;
 }
@@ -93,4 +152,43 @@ form .add {
 
 .light {
   background: #ccc;
+}
+
+.contact {
+  display: none;
+}
+
+.contact-desc {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-desc h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 30px;
+}
+
+.ul-list {
+  width: 50%;
+  margin: auto;
+}
+
+.footer-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  width: 75%;
+  border: 2px solid;
+  padding: 10px;
+  font-weight: 600;
+  font-family: 'poppins', sans-serif;
+  margin: 20px auto;
 }
